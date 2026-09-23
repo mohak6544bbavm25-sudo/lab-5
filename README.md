@@ -1,1 +1,11 @@
-# lab-5
+This project focuses on iterative prompt refinement and the systematic review of Generative AI outputs in an aviation-management context. The activity demonstrates how an initial AI-generated response can be improved through multiple targeted follow-up prompts, while reducing unsupported information, improving accuracy, controlling tone and length, and adding appropriate verification safeguards.
+
+The project begins with a diagnosis of an aviation passenger communication. Different areas are reviewed, including flight details, delay information, revised departure time, passenger instructions, gate information, compensation or benefits, tone, length, and overall accuracy. The correction process uses verified information such as Flight AV307, the Chandigarh–Mumbai route, a 75-minute delay, a revised departure time of 7:15 PM, and instructions to check official display screens. Information that has not been provided, such as gate details or compensation, is not invented or mentioned.
+
+A prompt-refinement trail is then developed through several versions. Each version addresses one specific issue, including missing flight facts, hallucination risk, missing passenger instructions, inappropriate tone, excessive length, and guessing risk. The final version includes a verification safeguard and keeps the communication below 80 words. This demonstrates how addressing one problem at a time makes AI-generated content easier to review and improve.
+
+The project also examines the risks associated with baggage complaints. Unsupported claims such as a confirmed lost-baggage status, a 24-hour delivery promise, ₹10,000 compensation, and a free upgrade are identified as information that should be removed unless officially verified. Missing baggage-reference information is also identified as requiring verification.
+
+An additional iteration exercise uses a flight-cancellation email to demonstrate how targeted prompts can add verified flight details, remove unsupported compensation claims, improve tone, and introduce a verification placeholder. Peer review confirms factual support, clarity, appropriate tone, passenger instructions, verification safeguards, privacy protection, and the need for human approval.
+
+Overall, this lab demonstrates that iterative prompting improves AI outputs, but human review remains essential for aviation communications.
